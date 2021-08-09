@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.converter-wraper {
+    max-width: 328px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin: 0 auto;
+    background: #394c6026;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.weather-image {
+    width: 253px;
+    padding: 32px 0px;
+    margin: 0 auto;
+}
+
+.weather-image img {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+}
+
+body {
+    background: #e6e6db;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 18px 33px 18px;
+}
+
+.btns input {
+    padding: 7px 16px;
+    background: #f1f1f1;
+    outline: none;
+    transition: .6s;
+    font-family: 'Andada Pro', serif;
+    border-radius: 5px;
+    border: 1px solid #8080807a;
+    margin-bottom: 6px;
+}
+.btns input:hover{
+    border-color: #6fb2e6;
+}
+.btns button {
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+    font-family: 'Andada Pro', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+    font-size: 11px;
+    color: #0853b0;
+    margin-top: 12px;
+    border: 1px solid #80808085;
+    padding: 7px 0px;
+}
+
+.btns button:hover {
+    background: #3a75a3;
+    color: #ffffffd1;
+}
